@@ -1,7 +1,7 @@
 package multithreading;
 
 class Display2 {
-	public  synchronized void wish() {
+	public synchronized void wish() {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
 			try {
@@ -11,7 +11,7 @@ class Display2 {
 		}
 	}
 	
-	public  synchronized void wish2() {
+	public synchronized void wish2() {
 		for (int i = 65; i < 75; i++) {
 			System.out.println((char)i);
 			try {

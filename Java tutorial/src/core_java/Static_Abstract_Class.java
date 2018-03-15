@@ -11,9 +11,12 @@ public class Static_Abstract_Class extends TestAbstractClass {
     public static void main(String[] args) {
         TestAbstractClass parentObj = new Static_Abstract_Class();
         parentObj .testStaticMethod();
+        
         Static_Abstract_Class childObj = new Static_Abstract_Class();
         childObj.testStaticMethod();
+        
         TestAbstractClass.testStaticMethod();
+        
         Static_Abstract_Class.testStaticMethod();
     }
 }

@@ -26,6 +26,6 @@ public class Thread_Join_Demo {
 					Thread.sleep(500);
 				} catch (InterruptedException e) {}
 			}
-		} catch (InterruptedException e) {}
+		} catch (Exception e) {}
 	}
 }
