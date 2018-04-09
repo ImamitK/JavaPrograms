@@ -1,6 +1,6 @@
 package Complex.Collections;
 
-class ArrayList{
+class ArrayList_{
 	
 	Object[] arr = new Object[10];
 	
@@ -12,6 +12,7 @@ class ArrayList{
 public class ArrayList_Implementation {
 
 	public static void main(String[] args) {
+		//List list = new ArrayList<>();
 		
 	}
 

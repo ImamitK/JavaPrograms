@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-class HashSet{
+class HashSet_{
 	
 	Object PRESENT = new Object();
 	Map<String,Object> map = new HashMap<>();
@@ -30,7 +30,7 @@ public class HashSet_Implementation {
 	
 	public static void main(String[] args) {
 		
-		HashSet set = new HashSet();
+		HashSet_ set = new HashSet_();
 		System.out.println(set.add("Amit"));
 		System.out.println(set.add(new String("Amit")));
 		System.out.println(set.add("Amol"));
